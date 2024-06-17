@@ -1,0 +1,60 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.21.1/libexec/bin/yarn.js add axios
+
+PATH: 
+  /Library/Frameworks/Python.framework/Versions/3.11/bin:/Library/Frameworks/Python.framework/Versions/3.11/bin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/Library/Frameworks/Python.framework/Versions/3.7/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin:/Library/Frameworks/Python.framework/Versions/3.11/bin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/Library/Frameworks/Python.framework/Versions/3.7/bin:/Users/hbin/Documents/apache-maven-3.6.3/bin:/user/local/mysql/bin:/usr/local/sbin:/Users/hbin/flutter/bin:/usr/local/mongodb/bin:/Users/hbin/Documents/apache-maven-3.6.3/bin:/user/local/mysql/bin:/usr/local/sbin:/Users/hbin/flutter/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/Library/Frameworks/Python.framework/Versions/3.7/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin:/Library/Frameworks/Python.framework/Versions/3.11/bin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/Library/Frameworks/Python.framework/Versions/3.7/bin:/Users/hbin/Documents/apache-maven-3.6.3/bin:/user/local/mysql/bin:/usr/local/sbin:/Users/hbin/flutter/bin:/usr/local/mongodb/bin:/Users/hbin/Documents/apache-maven-3.6.3/bin:/user/local/mysql/bin:/usr/local/sbin:/usr/local/mongodb/bin
+
+Yarn version: 
+  1.21.1
+
+Node version: 
+  16.17.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: certificate has expired
+      at TLSSocket.onConnectSecure (node:_tls_wrap:1535:34)
+      at TLSSocket.emit (node:events:513:28)
+      at TLSSocket._finishInit (node:_tls_wrap:949:8)
+      at TLSWrap.ssl.onhandshakedone (node:_tls_wrap:730:12)
+
+npm manifest: 
+  {
+    "name": "react-vite",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+      "dev": "vite",
+      "build": "vite build",
+      "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+      "preview": "vite preview"
+    },
+    "dependencies": {
+      "@ant-design/icons": "^5.3.1",
+      "antd": "^5.15.2",
+      "i18next": "^23.10.1",
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "react-i18next": "^14.1.0",
+      "react-router-dom": "^6.22.3"
+    },
+    "devDependencies": {
+      "@types/react": "^18.2.64",
+      "@types/react-dom": "^18.2.21",
+      "@vitejs/plugin-react": "^4.2.1",
+      "eslint": "^8.57.0",
+      "eslint-plugin-react": "^7.34.0",
+      "eslint-plugin-react-hooks": "^4.6.0",
+      "eslint-plugin-react-refresh": "^0.4.5",
+      "vite": "^5.1.6"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
